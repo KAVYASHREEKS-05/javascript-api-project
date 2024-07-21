@@ -1,0 +1,86 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box ;
+}
+body{
+    width:100%;
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.main-container{
+    display: grid;
+    place-items: center;
+    height:100vh
+
+}
+input{
+    width:100%;
+    padding:0.3rem;
+    border: 1px solid rgba(0, 0, 0, 0.151);
+    margin-bottom:0.5rem;
+    outline: none;
+}
+button{
+    color:rgba(0, 0, 0, 0.877);
+    padding:0.3rem 1rem;
+    border:none;
+    border-radius: 10rem;
+    margin-block:0.5rem 1rem;
+    background-color: rgba(5, 247, 194, 0.877);
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-shadow: rgba(43, 233, 223, 0.25) 0px 14px 28px, rgba(32, 199, 199, 0.22) 0px 10px 10px;
+}    
+.container{
+    width:350px;
+    background-color: rgb(253, 253, 253);
+    box-shadow: rgba(218, 206, 206, 0.56) 0px 22px 70px 4px;
+    padding:2rem;
+    display: grid;
+    place-items: center;
+
+}
+.image{
+    width:100%;
+}
+.countryName{
+    text-align: center;
+    margin-block:0.5rem;
+
+}
+h3{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing:2px;
+    color:rgba(5, 247, 194, 0.877);
+    font-family: "Poppins", sans-serif;
+}
+.heading{
+    padding-block: 0.5rem;
+    font-size: 18px;
+    text-align: center;
+   
+
+}
+p{
+    font-weight: bolder;
+    letter-spacing:0.7px;
+    color:rgba(0, 0, 0, 0.842)
+    
+}
+p span{
+    font-weight: 500;
+    color:rgba(0, 0, 0, 0.767)
+   
+}
+.hidden{
+    display: none;
+}
+@media (max-width:360px) {
+    .container{
+        width:300px;
+        padding:1rem;
+    
+    }
+}
