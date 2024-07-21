@@ -1,0 +1,74 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    height:100vh;
+    display: grid;
+    place-items: center;
+}
+.container{
+    max-width:350px;
+    width:100%;
+    padding:2rem;
+    display: grid;
+    place-items: center;
+    gap:1.5rem;
+    box-shadow: rgb(18, 18, 19) 0px 20px 30px -10px;
+    background-color: black;
+    border-radius: 10px;
+    
+}
+.emoji{
+    font-size: 4rem;
+}
+.button1{
+   padding: 0.7rem 2rem;
+   background-color:rgba(10, 199, 247, 0.425) ;
+   border: 0;
+   border-radius: 10px;
+   font-size: 1.2rem;
+   font-weight: 620;
+   color: white;
+   box-shadow: rgba(24, 192, 184, 0.35) 0px 1px 15px;
+   letter-spacing: 0.05rem;
+
+}
+
+h1{
+    color:rgba(255, 255, 255, 0.815);
+    font-size: 1.2rem;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 0.04rem;
+   
+
+
+}
+P{
+    color:white;
+    letter-spacing: 0.04rem;
+   
+}
+.reveal{
+    padding:0.5rem 1rem;
+    background-color:rgba(10, 199, 247, 0.425) ;
+    color:white;
+    border: 0;
+    border-radius: 10px;
+    font-weight: 620;
+    font-size: 1rem;
+    box-shadow: rgba(24, 192, 184, 0.35) 0px 1px 15px;
+    letter-spacing: 0.09rem;
+
+   
+
+}
+@media (max-width:360px) {
+    .container{
+        max-width:250px;
+        padding:1.5rem;
+        
+    }
+}
