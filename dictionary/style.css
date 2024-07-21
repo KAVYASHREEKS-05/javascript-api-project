@@ -1,0 +1,62 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+  height:100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+}
+.container{
+    width:350px;
+    padding:1rem 1.5rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.heading{
+    text-align: center;
+    font-weight: 500;
+    color: aqua;
+}
+.input{
+    width:100%;
+    margin-block:1rem;
+    padding:0.5rem;
+    border:1px solid rgba(0, 0, 0, 0.103);
+    outline:none;
+    font-family: inherit;
+
+
+}
+.text-container .text{
+    padding-block:0.5rem
+}
+.audio{
+    display: none;
+}
+.audio-image{
+    height:30px;
+}
+.hidden{
+    display: none;
+}
+.pronounce{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.meaningcontainer{
+    margin-block:1rem;
+}
+.meaningcontainer .meaning{
+    padding-top:0.5rem;
+}
+.synonymsContainer .synonyms{
+    padding-top:0.5rem;
+}
+.synonyms{
+    list-style-type: disc;
+    padding-left:1rem
+}
